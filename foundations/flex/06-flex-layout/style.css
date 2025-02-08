@@ -3,7 +3,6 @@
 body {
   height: 100vh;
   margin: 0;
-  padding: 10px;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
@@ -20,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -32,6 +32,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px;
 }
 
 .content {
@@ -39,19 +40,22 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 15px;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #eeeeee;
+  padding: 15px;
 }
 
 ul {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 15px;
   list-style: none;
 }
 
